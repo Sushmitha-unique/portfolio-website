@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+      body{
+        background-image: url(bg\ img.jpg);
+        background-size:cover;
+        font-family: 'Times New Roman', Times, serif;
+      }
+      header{
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      h1{
+        padding-left: 40px;
+      }
+     .list{
+        list-style-type:none;
+        padding: 0px;
+        overflow: hidden;
+        float: left;
+        margin-left: 50px;
+        justify-content: center;
+     }
+     li{
+        float: left;
+     }
+     li a{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 40px 40px;
+        text-decoration: none;
+     }
+    .sub{
+        background-color:#ff0066;
+        color:white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .s1{
+        position: absolute;
+        padding-left: 100px;
+        left: 50px;
+        bottom: 120px;
+    }
+    .s2{
+        position: absolute;
+        padding-left: 100px;
+        left: 50px;
+        bottom: 60px;
+    }
+    .s3{
+      border: 2px solid #ff0066;
+        border-radius: 5px;
+        display:inline-block;
+    }
+    .bl{
+        background-color: #ff0066;
+        color: white;
+        border: 2px solid #ff0066;
+        border-radius: 5px; 
+        padding: 10px 10px;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+     <div>
+        <header>
+            <div class="title">
+                <h1 style="color: white;">Portfo<span style="color:#ff0066;">lio</span></h1>
+            </div>
+           <ul class="list">
+           <li><a href="home.html">Home</a></li> 
+           <li><a href="project.html">Project</a></li> 
+           <li><a href="skills.html">Skills</a></li> 
+           <li><a href="contact.html">Contact</a></li> 
+           </ul>
+         <button type="button" class="sub">Subscribe</button>
+        </header>
+     </div>
+     <div>
+        <section class="s1">
+            <h3  style="color: white;">Hello,my name is</h3>
+            <h1  style="color: white;">SUSHMITHA  <span style="color:#ff0066;">BUJJIREDDY</span> </h1>
+            <h2  style="color: white;">I am software developer</h2>
+        </section>
+     </div>
+     <div>
+        <section class="s2">
+          <div class="s3">
+            <div class="input-group ">
+              <input type="email"  placeholder="Enter your email" required>
+              <div class="input-group-append">
+                <button class="bl" type="submit">Submit</button>
+              </div>
+            </div>
+          </div>
+        </section>
+     </div>
+    </div>
+</body>
+</html>
